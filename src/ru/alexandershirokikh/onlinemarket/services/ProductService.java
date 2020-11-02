@@ -15,4 +15,9 @@ public interface ProductService {
      */
     List<Product> getProducts(ProductFilter filter);
 
+    /**
+     * Adds product to the product storage
+     */
+    void addProduct(Product product);
+
 }
